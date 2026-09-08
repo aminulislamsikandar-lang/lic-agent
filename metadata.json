@@ -1,0 +1,7 @@
+{
+  "name": "InsureCare CRM & Advisor Portal",
+  "description": "Comprehensive client management CRM and public website for independent insurance and LIC advisors with lead capture, renewal tracking, and automated reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

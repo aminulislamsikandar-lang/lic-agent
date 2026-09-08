@@ -1,0 +1,625 @@
+{
+  "users": [
+    {
+      "id": "usr-adv-1",
+      "email": "abushayedali100@gmail.com",
+      "password": "$2b$10$uW3Whr6KiWdW/1VpZX8.YeJVsooXi9JdSkw8YmW3rloshP0Q4yA3C",
+      "name": "Abushayed Ali",
+      "role": "Advisor",
+      "phone": "+91 96788 97752"
+    },
+    {
+      "id": "usr-adv-2",
+      "email": "advisor@lic.in",
+      "password": "$2b$10$uW3Whr6KiWdW/1VpZX8.YeJVsooXi9JdSkw8YmW3rloshP0Q4yA3C",
+      "name": "Abushayed Ali",
+      "role": "Advisor",
+      "phone": "+91 96788 97752"
+    },
+    {
+      "id": "usr-adv-3",
+      "email": "abushayed.ali@insuranceadvisor.in",
+      "password": "$2b$10$uW3Whr6KiWdW/1VpZX8.YeJVsooXi9JdSkw8YmW3rloshP0Q4yA3C",
+      "name": "Abushayed Ali",
+      "role": "Advisor",
+      "phone": "+91 96788 97752"
+    },
+    {
+      "id": "usr-staff-1",
+      "email": "staff@lic.in",
+      "password": "$2b$10$U3V8nozSetVAGx21iXyiCOCWySYUKFv4P5VhNT/culAl9to9bs5yC",
+      "name": "Pooja Verma",
+      "role": "Staff",
+      "phone": "+91 98200 44321"
+    },
+    {
+      "id": "usr-staff-2",
+      "email": "pooja.verma@insuranceadvisor.in",
+      "password": "$2b$10$U3V8nozSetVAGx21iXyiCOCWySYUKFv4P5VhNT/culAl9to9bs5yC",
+      "name": "Pooja Verma",
+      "role": "Staff",
+      "phone": "+91 98200 44321"
+    }
+  ],
+  "clients": [
+    {
+      "id": "c-1",
+      "name": "Rajesh Verma",
+      "phone": "+91 98210 11223",
+      "email": "rajesh.verma@tcs.com",
+      "city": "Mumbai",
+      "address": "Flat 402, Sea Breeze Apts, Bandra West, Mumbai",
+      "source": "Referral",
+      "notes": "Key client, owns 2 family policies. Prefers calls after 6 PM.",
+      "created_at": "2024-03-15"
+    },
+    {
+      "id": "c-2",
+      "name": "Anita Desai",
+      "phone": "+91 98331 44556",
+      "email": "anita.desai@architects.in",
+      "city": "Pune",
+      "address": "B-12, Green Acres, Koregaon Park, Pune",
+      "source": "Website",
+      "notes": "Self-employed architect. Term insurance taken in 2023.",
+      "created_at": "2024-05-20"
+    },
+    {
+      "id": "c-3",
+      "name": "Amit Patel",
+      "phone": "+91 97123 99887",
+      "email": "amit.patel@pateltextiles.com",
+      "city": "Ahmedabad",
+      "address": "7, Shanti Sadan, CG Road, Ahmedabad",
+      "source": "Manual",
+      "notes": "Textile merchant, high net-worth endowment policyholder.",
+      "created_at": "2023-11-10"
+    },
+    {
+      "id": "c-4",
+      "name": "Dr. Vikram Malhotra",
+      "phone": "+91 98112 33445",
+      "email": "dr.malhotra@careclinic.org",
+      "city": "Delhi NCR",
+      "address": "A-89, Defence Colony, New Delhi",
+      "source": "Referral",
+      "notes": "Cardiologist. Has comprehensive health cover + pension plan.",
+      "created_at": "2024-01-14"
+    },
+    {
+      "id": "c-5",
+      "name": "Sunita Joshi",
+      "phone": "+91 98220 77889",
+      "email": "sunita.joshi@school.edu.in",
+      "city": "Mumbai",
+      "address": "Rowhouse 4, Vasant Vihar, Thane West",
+      "source": "Website",
+      "notes": "High school vice-principal. Child education plan for son.",
+      "created_at": "2024-06-02"
+    },
+    {
+      "id": "c-6",
+      "name": "Deepak Mehra",
+      "phone": "+91 98990 66778",
+      "email": "deepak.mehra@fintech.co",
+      "city": "Bengaluru",
+      "address": "104, Palm Meadows, Whitefield, Bengaluru",
+      "source": "Calculator",
+      "notes": "Submitted quote request via website premium calculator.",
+      "created_at": "2024-07-18"
+    },
+    {
+      "id": "c-7",
+      "name": "Priya Iyer",
+      "phone": "+91 98450 12345",
+      "email": "priya.iyer@techcorp.in",
+      "city": "Chennai",
+      "address": "22, Sterling Road, Nungambakkam, Chennai",
+      "source": "Referral",
+      "notes": "Family floater health policy. Prompt payer via UPI.",
+      "created_at": "2024-02-28"
+    }
+  ],
+  "policies": [
+    {
+      "id": "pol-1",
+      "client_id": "c-1",
+      "client_name": "Rajesh Verma",
+      "client_phone": "+91 98210 11223",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-771892019",
+      "plan_type": "LIC's Jeevan Utsav (Plan 771)",
+      "premium_amount": 52000,
+      "frequency": "Annual",
+      "start_date": "2022-09-02",
+      "due_date": "2026-09-04",
+      "status": "Overdue",
+      "sum_assured": 1500000,
+      "commission_rate": 5
+    },
+    {
+      "id": "pol-2",
+      "client_id": "c-2",
+      "client_name": "Anita Desai",
+      "client_phone": "+91 98331 44556",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-954847110",
+      "plan_type": "LIC's New Tech-Term (Plan 954)",
+      "premium_amount": 18200,
+      "frequency": "Annual",
+      "start_date": "2023-09-07",
+      "due_date": "2026-09-08",
+      "status": "Pending",
+      "sum_assured": 10000000,
+      "commission_rate": 7.5
+    },
+    {
+      "id": "pol-3",
+      "client_id": "c-3",
+      "client_name": "Amit Patel",
+      "client_phone": "+91 97123 99887",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-745910283",
+      "plan_type": "LIC's Jeevan Umang (Plan 745)",
+      "premium_amount": 125000,
+      "frequency": "Annual",
+      "start_date": "2022-09-10",
+      "due_date": "2026-09-10",
+      "status": "Pending",
+      "sum_assured": 2500000,
+      "commission_rate": 5
+    },
+    {
+      "id": "pol-4",
+      "client_id": "c-4",
+      "client_name": "Dr. Vikram Malhotra",
+      "client_phone": "+91 98112 33445",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-873910245",
+      "plan_type": "LIC's Index Plus (Plan 873)",
+      "premium_amount": 60000,
+      "frequency": "Annual",
+      "start_date": "2023-09-12",
+      "due_date": "2026-09-12",
+      "status": "Pending",
+      "sum_assured": 2000000,
+      "commission_rate": 5
+    },
+    {
+      "id": "pol-5",
+      "client_id": "c-5",
+      "client_name": "Sunita Joshi",
+      "client_phone": "+91 98220 77889",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-915918304",
+      "plan_type": "LIC's New Jeevan Anand",
+      "premium_amount": 32000,
+      "frequency": "Half-Yearly",
+      "start_date": "2023-09-01",
+      "due_date": "2026-09-01",
+      "status": "Overdue",
+      "sum_assured": 1000000,
+      "commission_rate": 5
+    },
+    {
+      "id": "pol-6",
+      "client_id": "c-6",
+      "client_name": "Deepak Mehra",
+      "client_phone": "+91 98990 66778",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-876110294",
+      "plan_type": "LIC's Digi Term (Plan 876)",
+      "premium_amount": 22400,
+      "frequency": "Annual",
+      "start_date": "2024-09-07",
+      "due_date": "2026-09-08",
+      "status": "Pending",
+      "sum_assured": 15000000,
+      "commission_rate": 7.5
+    },
+    {
+      "id": "pol-7",
+      "client_id": "c-1",
+      "client_name": "Rajesh Verma",
+      "client_phone": "+91 98210 11223",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-749281042",
+      "plan_type": "LIC's Nivesh Plus (Plan 749)",
+      "premium_amount": 100000,
+      "frequency": "Annual",
+      "start_date": "2023-11-15",
+      "due_date": "2026-10-03",
+      "status": "Active",
+      "sum_assured": 1250000,
+      "commission_rate": 2
+    },
+    {
+      "id": "pol-8",
+      "client_id": "c-7",
+      "client_name": "Priya Iyer",
+      "client_phone": "+91 98450 12345",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-858829301",
+      "plan_type": "LIC's New Jeevan Shanti (Plan 858)",
+      "premium_amount": 250000,
+      "frequency": "Annual",
+      "start_date": "2023-08-20",
+      "due_date": "2026-08-21",
+      "status": "Paid",
+      "sum_assured": 3000000,
+      "commission_rate": 2
+    },
+    {
+      "id": "pol-9",
+      "client_id": "c-3",
+      "client_name": "Amit Patel",
+      "client_phone": "+91 97123 99887",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-752819033",
+      "plan_type": "LIC's SIIP (Plan 752)",
+      "premium_amount": 48000,
+      "frequency": "Annual",
+      "start_date": "2023-05-15",
+      "due_date": "2026-09-26",
+      "status": "Active",
+      "sum_assured": 1200000,
+      "commission_rate": 5
+    },
+    {
+      "id": "pol-10",
+      "client_id": "c-4",
+      "client_name": "Dr. Vikram Malhotra",
+      "client_phone": "+91 98112 33445",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-881920334",
+      "plan_type": "LIC's Jeevan Akshay-VII",
+      "premium_amount": 500000,
+      "frequency": "Annual",
+      "start_date": "2023-01-20",
+      "due_date": "2026-10-23",
+      "status": "Active",
+      "sum_assured": 5000000,
+      "commission_rate": 2
+    },
+    {
+      "id": "pol-11",
+      "client_id": "c-6",
+      "client_name": "Deepak Mehra",
+      "client_phone": "+91 98990 66778",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-955029188",
+      "plan_type": "LIC's New Jeevan Amar (Plan 955)",
+      "premium_amount": 14500,
+      "frequency": "Annual",
+      "start_date": "2024-02-10",
+      "due_date": "2026-10-28",
+      "status": "Active",
+      "sum_assured": 7500000,
+      "commission_rate": 7.5
+    },
+    {
+      "id": "pol-12",
+      "client_id": "c-5",
+      "client_name": "Sunita Joshi",
+      "client_phone": "+91 98220 77889",
+      "insurer": "LIC of India",
+      "policy_number": "LIC-859190288",
+      "plan_type": "LIC's Saral Jeevan Bima (Plan 859)",
+      "premium_amount": 8600,
+      "frequency": "Annual",
+      "start_date": "2024-03-01",
+      "due_date": "2026-11-07",
+      "status": "Active",
+      "sum_assured": 1500000,
+      "commission_rate": 7.5
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead-1",
+      "name": "Siddharth Rao",
+      "phone": "+91 98198 76543",
+      "email": "siddharth.rao@gmail.com",
+      "city": "Mumbai",
+      "product_interest": "LIC's Digi Term (Plan 876)",
+      "preferred_time": "Evening (5 PM - 8 PM)",
+      "message": "Looking for pure term plan for family. 34 yrs old non-smoker.",
+      "source": "Website",
+      "status": "New",
+      "submitted_at": "Today, 10:15 AM",
+      "notes": "High intent lead. Requested callback after office hours."
+    },
+    {
+      "id": "lead-2",
+      "name": "Kavita Chawla",
+      "phone": "+91 98711 22334",
+      "email": "kavita.chawla@designco.com",
+      "city": "Delhi",
+      "product_interest": "LIC's Jeevan Utsav (Plan 771)",
+      "preferred_time": "Afternoon (12 PM - 3 PM)",
+      "message": "Want guaranteed lifelong income benefit for child milestone security.",
+      "source": "Website",
+      "status": "New",
+      "submitted_at": "Today, 08:30 AM",
+      "notes": "Interested in tax savings under 80C as well."
+    },
+    {
+      "id": "lead-3",
+      "name": "Rohan Deshmukh",
+      "phone": "+91 99234 55667",
+      "email": "rohan.d@infosys.com",
+      "city": "Pune",
+      "product_interest": "LIC's Index Plus (Plan 873)",
+      "preferred_time": "Morning (9 AM - 12 PM)",
+      "message": "Calculated premium on site. Interested in Nifty 50 linked returns with life cover.",
+      "source": "Calculator",
+      "status": "Contacted",
+      "submitted_at": "Yesterday, 4:20 PM",
+      "notes": "Sent brochure via WhatsApp. Awaiting review.",
+      "sum_assured_estimate": "₹15,00,000"
+    },
+    {
+      "id": "lead-4",
+      "name": "Harish Nair",
+      "phone": "+91 98401 88990",
+      "email": "harish.nair@chennaiship.in",
+      "city": "Chennai",
+      "product_interest": "LIC's New Jeevan Shanti (Plan 858)",
+      "preferred_time": "Anytime",
+      "message": "Retiring in 4 years. Want deferred annuity options with return of purchase price.",
+      "source": "Website",
+      "status": "Converted",
+      "submitted_at": "3 days ago",
+      "notes": "Converted to client. Policy application submitted for New Jeevan Shanti."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "time-1",
+      "client_id": "c-1",
+      "type": "call",
+      "content": "Called regarding LIC's Jeevan Utsav renewal overdue by 4 days. Spoke with client — promised payment by this Friday evening via LIC Portal.",
+      "created_by": "Abushayed Ali",
+      "created_at": "Today, 11:30 AM",
+      "channel": "Phone",
+      "outcome": "Spoke – will pay Friday"
+    },
+    {
+      "id": "time-2",
+      "client_id": "c-2",
+      "type": "message",
+      "content": "Automated WhatsApp reminder sent for LIC's New Tech-Term policy due today (₹18,200). Meta delivery receipt confirmed.",
+      "created_by": "System (Automation)",
+      "created_at": "Today, 08:00 AM",
+      "channel": "WhatsApp"
+    },
+    {
+      "id": "time-3",
+      "client_id": "c-6",
+      "type": "message",
+      "content": "Automated WhatsApp reminder sent for LIC's Digi Term policy due today (₹22,400).",
+      "created_by": "System (Automation)",
+      "created_at": "Today, 08:00 AM",
+      "channel": "WhatsApp"
+    },
+    {
+      "id": "time-4",
+      "client_id": "c-5",
+      "type": "call",
+      "content": "Attempted renewal reminder call. Phone was switched off / unreachable. Sent follow-up WhatsApp message.",
+      "created_by": "Pooja Kulkarni (Staff)",
+      "created_at": "Yesterday, 03:15 PM",
+      "channel": "Phone",
+      "outcome": "Not reachable"
+    },
+    {
+      "id": "time-5",
+      "client_id": "c-7",
+      "type": "status_change",
+      "content": "Premium payment of ₹2,50,000 confirmed for LIC's New Jeevan Shanti policy. Policy status updated to Paid.",
+      "created_by": "Abushayed Ali",
+      "created_at": "Aug 22, 2026",
+      "channel": "System",
+      "outcome": "Paid"
+    },
+    {
+      "id": "time-6",
+      "client_id": "c-7",
+      "type": "message",
+      "content": "Sent official WhatsApp payment acknowledgment & tax certificate copy.",
+      "created_by": "System (Automation)",
+      "created_at": "Aug 22, 2026",
+      "channel": "WhatsApp"
+    }
+  ],
+  "callLogs": [
+    {
+      "id": "log-1",
+      "client_id": "c-1",
+      "client_name": "Rajesh Verma",
+      "policy_id": "pol-1",
+      "outcome": "Spoke - Will Pay",
+      "notes": "Promised to make RTGS payment on Friday after salary credit.",
+      "follow_up_date": "2026-09-12",
+      "created_by": "Abushayed Ali",
+      "created_at": "Yesterday, 11:30 AM"
+    },
+    {
+      "id": "log-2",
+      "client_id": "c-3",
+      "client_name": "Dr. Vikram Malhotra",
+      "policy_id": "pol-3",
+      "outcome": "Not Reachable",
+      "notes": "Phone rang with no response. Left WhatsApp notice.",
+      "follow_up_date": "2026-09-08",
+      "created_by": "Pooja Verma",
+      "created_at": "Yesterday, 03:15 PM"
+    },
+    {
+      "id": "log-3",
+      "client_id": "c-7",
+      "client_name": "Priya Iyer",
+      "policy_id": "pol-7",
+      "outcome": "Paid",
+      "notes": "Payment of ₹2,50,000 received via Netbanking.",
+      "created_by": "Abushayed Ali",
+      "created_at": "Aug 22, 2026"
+    }
+  ],
+  "automationRules": [
+    {
+      "id": "rule-1",
+      "title": "7-Day Pre-Due Reminder",
+      "trigger_type": "before_due",
+      "offset_days": -7,
+      "channel": "WhatsApp",
+      "template_id": "tmpl-1",
+      "template_name": "lic_premium_due_7days",
+      "active": true,
+      "description": "Sends gentle advance reminder 7 days prior to premium due date."
+    },
+    {
+      "id": "rule-2",
+      "title": "1-Day Pre-Due Reminder",
+      "trigger_type": "before_due",
+      "offset_days": -1,
+      "channel": "WhatsApp",
+      "template_id": "tmpl-1",
+      "template_name": "lic_premium_due_7days",
+      "active": true,
+      "description": "Final advance reminder 24 hours before due date."
+    },
+    {
+      "id": "rule-3",
+      "title": "Due Date Notification",
+      "trigger_type": "on_due",
+      "offset_days": 0,
+      "channel": "WhatsApp",
+      "template_id": "tmpl-2",
+      "template_name": "lic_premium_due_today",
+      "active": true,
+      "description": "Dispatches reminder on the exact due date with direct payment guidance."
+    },
+    {
+      "id": "rule-4",
+      "title": "Overdue Notice (+3 Days)",
+      "trigger_type": "after_due",
+      "offset_days": 3,
+      "channel": "WhatsApp",
+      "template_id": "tmpl-3",
+      "template_name": "lic_premium_overdue_escalation",
+      "active": true,
+      "description": "Escalating urgency notice sent 3 days after missed due date."
+    },
+    {
+      "id": "rule-5",
+      "title": "Overdue Notice (+7 Days)",
+      "trigger_type": "after_due",
+      "offset_days": 7,
+      "channel": "WhatsApp",
+      "template_id": "tmpl-3",
+      "template_name": "lic_premium_overdue_escalation",
+      "active": true,
+      "description": "Final grace period warning sent 7 days after missed due date."
+    },
+    {
+      "id": "rule-6",
+      "title": "Payment Confirmation & Thanks",
+      "trigger_type": "after_paid",
+      "offset_days": 0,
+      "channel": "WhatsApp",
+      "template_id": "tmpl-4",
+      "template_name": "payment_received_thankyou",
+      "active": true,
+      "description": "Immediate thank-you and tax certificate receipt prompt when marked paid."
+    }
+  ],
+  "templates": [
+    {
+      "id": "tmpl-1",
+      "name": "lic_premium_due_7days",
+      "category": "UTILITY",
+      "language": "English / Hinglish",
+      "content": "Dear {{1}}, warm greetings from your insurance advisor {{2}}. This is a gentle reminder that your {{3}} policy no. *{{4}}* premium of *₹{{5}}* is due on *{{6}}*. To ensure continuous life risk cover and bonuses, kindly renew before due date. Pay online: https://licindia.in or reply here for direct UPI link.",
+      "status": "Approved"
+    },
+    {
+      "id": "tmpl-2",
+      "name": "lic_premium_due_today",
+      "category": "UTILITY",
+      "language": "English / Hinglish",
+      "content": "Dear {{1}}, your policy premium of *₹{{5}}* for policy *{{4}}* ({{3}}) is *DUE TODAY ({{6}})*. Avoid grace period charges or policy lapse. Need assistance with quick online payment? Reply to this message or call me at {{7}}.",
+      "status": "Approved"
+    },
+    {
+      "id": "tmpl-3",
+      "name": "lic_premium_overdue_escalation",
+      "category": "UTILITY",
+      "language": "English / Hinglish",
+      "content": "Urgent Notice: Dear {{1}}, your policy no. *{{4}}* premium of *₹{{5}}* was due on {{6}} and is currently *OVERDUE*. Your policy is in the grace period. Please clear the renewal immediately to protect your family’s active risk coverage. Reach me at {{7}} for any assistance.",
+      "status": "Approved"
+    },
+    {
+      "id": "tmpl-4",
+      "name": "payment_received_thankyou",
+      "category": "TRANSACTIONAL",
+      "language": "English",
+      "content": "Thank you {{1}}! We have confirmed your premium payment of *₹{{5}}* for policy *{{4}}*. Your coverage remains fully active. For your premium paid certificate (80C tax exemption), feel free to download or ping me anytime. Warm regards, {{2}}.",
+      "status": "Approved"
+    }
+  ],
+  "advisorProfile": {
+    "name": "Abushayed Ali",
+    "title": "Senior LIC MDRT Advisor & Wealth Protection Consultant",
+    "agency": "Life Insurance Corporation of India (Mirza Branch)",
+    "branch": "Mirza Branch",
+    "license_no": "IRDAI/2011/AGN-489201",
+    "phone": "+91 96788 97752",
+    "whatsapp": "+91 96788 97752",
+    "email": "abushayedali100@gmail.com",
+    "experience_years": 16,
+    "clients_served": 1480,
+    "claims_settled_ratio": 99.2,
+    "office_address": "Kachumara, Barpeta District, Assam – 781127",
+    "business_hours": "Monday – Saturday: 9:00 AM – 7:30 PM (Sunday by appointment)",
+    "bio": "Helping over 1,400+ Indian families achieve guaranteed financial security, tax-efficient retirement, and seamless death claim settlements for over 16 years. Authorized representative for Life Insurance Corporation of India (Mirza Branch)."
+  },
+  "staffMembers": [
+    {
+      "id": "staff-1",
+      "name": "Abushayed Ali",
+      "email": "abushayedali100@gmail.com",
+      "phone": "+91 96788 97752",
+      "role": "Advisor",
+      "active": true
+    },
+    {
+      "id": "staff-2",
+      "name": "Pooja Kulkarni",
+      "email": "pooja.assistant@insurecare.in",
+      "phone": "+91 98765 43210",
+      "role": "Staff",
+      "active": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "New Lead: Siddharth Rao",
+      "message": "Term Insurance (1 Cr Cover) - Mumbai (Tel: +91 98198 76543)",
+      "type": "lead",
+      "created_at": "Today, 10:15 AM",
+      "read": false,
+      "link_tab": "leads"
+    },
+    {
+      "id": "notif-2",
+      "title": "Policy Overdue Alert",
+      "message": "Rajesh Verma (LIC-883492019) ₹48,500 is overdue by 4 days.",
+      "type": "overdue",
+      "created_at": "Today, 08:00 AM",
+      "read": false,
+      "link_tab": "overdue"
+    }
+  ]
+}
