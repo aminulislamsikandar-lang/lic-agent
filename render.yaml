@@ -2,12 +2,21 @@ services:
   - type: web
     name: lic-agent
     runtime: node
-    plan: free
+    plan: starter
     region: singapore
     branch: main
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    startCommand: >-
+      mkdir -p /var/data &&
+      if [ ! -f /var/data/insurecare.db.json ]; then cp data/insurecare.db.json /var/data/insurecare.db.json; fi &&
+      rm -rf data &&
+      ln -s /var/data data &&
+      node dist/server.cjs
     healthCheckPath: /api/health/ready
+    disk:
+      name: lic-agent-data
+      mountPath: /var/data
+      sizeGB: 1
     envVars:
       - key: NODE_ENV
         value: production
